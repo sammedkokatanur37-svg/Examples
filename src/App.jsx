@@ -1,12 +1,14 @@
-import Home from "./home"
+import Button from "./Components/button"
 
 function App() {
-  
+
   return (
     <>
-    <Home />
+    <Button 
+    name="sammed"
+    age= {21}
+    />
     </>
-      
   )
 }
 
